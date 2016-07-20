@@ -1,5 +1,5 @@
 ﻿param(
-    [string]$buildScript
+    [string]$buildScript = "./default.ps1"
 )
 
 # Get latest PSAKE version
